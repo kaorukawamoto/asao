@@ -1,7 +1,4 @@
-$width: 300px;
-$color: red;
-#maincontainer{
-	width: $width;
-	color: $color;
-	background: #333;
-}
+@import "common";
+@import "clearfix";
+@import "mixin";
+@import "nuderpage";
